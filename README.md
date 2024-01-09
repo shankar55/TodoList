@@ -3,13 +3,16 @@
 ToDoList is a simple application designed to add small tasks in the form of a list.
 
 ## 🛠 Skills
-HTML, CSS, Bootstrap,NodeJS, MongoDB...
+HTML, CSS, Bootstrap, NodeJS, MongoDB...
 
 ## Setting Up an Environment
-<h5>To store the list of items as an array in the mongoDB Atlas in cloud. So that, it doesnt need our local machine to store the data.</h5>
+<h5>To store the list of items as an array in the MongoDB Atlas in the cloud. So that it doesn't need our local machine to store the data.</h5>
 <h5><b>How to set up MongoDB Atlas</b></h5>
-<h5>we need to register and then create a project under that project create a new cluster of any cloud which is free and then enter the login details like username and password and then add anywhere address to whilelist ip address.</h5>
-<h5>we need to click on connect and it will show three options under that connect with application and it will show the link, copy that and paste in our application inside mongoose.client and then edit the link to change the password and remove majority part</h5>
+<h5>1. Register and create a project.
+2. Under that project, create a new cluster of any cloud (free tier).
+3. Enter login details and whitelist IP address.
+4. Click on 'Connect' and select 'Connect with Application'.
+5. Copy the link, paste it in the application inside mongoose.client, and edit the link (change password, remove majority part).</h5>
 
 ## Deployment
 [Explore ToDoList](https://shankar55.github.io/todolist-react/)
@@ -17,6 +20,11 @@ HTML, CSS, Bootstrap,NodeJS, MongoDB...
 <img src="/images/todolist.png">
 <img src="/images/mongodb.PNG">
 
+## Docker Image
+You can pull the Docker image for ToDoList using the following command:
+```bash
+docker pull shankar55/todolist
+```
 ## Authors
 
 - [@Shankar](https://github.com/shankar55)
