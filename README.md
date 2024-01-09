@@ -14,7 +14,7 @@ HTML, CSS, Bootstrap,NodeJS, MongoDB...
 ## Deployment
 [Explore ToDoList](https://shankar55.github.io/todolist-react/)
 
-<img src="/images/todolist.PNG">
+<img src="/images/todolist.png">
 <img src="/images/mongodb.PNG">
 
 ## Authors
